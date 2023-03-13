@@ -11,9 +11,12 @@
 
   &__img {
     position: absolute;
-    width: 683px;
-    bottom: 0;
+    width: 595px;
+    bottom: -120px;
     right: 0;
+    img {
+      mix-blend-mode: lighten;
+    }
   }
 
   &__title-wrapper {
